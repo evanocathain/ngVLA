@@ -1,0 +1,4174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>coords_MID.csv</name>
+    <Style id="icon-1899-0F9D58-labelson">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Array_Centre</name>
+      <description><![CDATA[Number: 0<br>Degrees_Longitude: 21.443<br>Degrees_Latitude: -30.713]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>0.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.443</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.443,-30.713,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M001</name>
+      <description><![CDATA[Number: 1<br>Degrees_Longitude: 21.4469635<br>Degrees_Latitude: -30.681655]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>1.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4469635</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.681655</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4469635,-30.681655,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M002</name>
+      <description><![CDATA[Number: 2<br>Degrees_Longitude: 21.4146123<br>Degrees_Latitude: -30.68682]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>2.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4146123</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.68682</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4146123,-30.68682,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M003</name>
+      <description><![CDATA[Number: 3<br>Degrees_Longitude: 21.4731677<br>Degrees_Latitude: -30.68682]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>3.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4731677</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.68682</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4731677,-30.68682,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M004</name>
+      <description><![CDATA[Number: 4<br>Degrees_Longitude: 21.4285756<br>Degrees_Latitude: -30.695255]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>4.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4285756</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.695255</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4285756,-30.695255,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M005</name>
+      <description><![CDATA[Number: 5<br>Degrees_Longitude: 21.4499502<br>Degrees_Latitude: -30.703263]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>5.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4499502</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.703263</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4499502,-30.703263,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M006</name>
+      <description><![CDATA[Number: 6<br>Degrees_Longitude: 21.4823636<br>Degrees_Latitude: -30.704205]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>6.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4823636</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.704205</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4823636,-30.704205,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M007</name>
+      <description><![CDATA[Number: 7<br>Degrees_Longitude: 21.434536<br>Degrees_Latitude: -30.70564]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>7.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.434536</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.70564</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.434536,-30.70564,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M008</name>
+      <description><![CDATA[Number: 8<br>Degrees_Longitude: 21.4605717<br>Degrees_Latitude: -30.706845]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>8.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4605717</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.706845</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4605717,-30.706845,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M009</name>
+      <description><![CDATA[Number: 9<br>Degrees_Longitude: 21.4062526<br>Degrees_Latitude: -30.707114]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>9.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4062526</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.707114</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4062526,-30.707114,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M010</name>
+      <description><![CDATA[Number: 10<br>Degrees_Longitude: 21.4247587<br>Degrees_Latitude: -30.708649]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>10.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4247587</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.708649</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4247587,-30.708649,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M011</name>
+      <description><![CDATA[Number: 11<br>Degrees_Longitude: 21.4419898<br>Degrees_Latitude: -30.70902]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>11.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4419898</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.70902</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4419898,-30.70902,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M012</name>
+      <description><![CDATA[Number: 12<br>Degrees_Longitude: 21.4487038<br>Degrees_Latitude: -30.709472]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>12.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4487038</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.709472</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4487038,-30.709472,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M013</name>
+      <description><![CDATA[Number: 13<br>Degrees_Longitude: 21.4402247<br>Degrees_Latitude: -30.709702]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>13.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4402247</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.709702</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4402247,-30.709702,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M014</name>
+      <description><![CDATA[Number: 14<br>Degrees_Longitude: 21.4456766<br>Degrees_Latitude: -30.710027]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>14.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4456766</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.710027</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4456766,-30.710027,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M015</name>
+      <description><![CDATA[Number: 15<br>Degrees_Longitude: 21.4564328<br>Degrees_Latitude: -30.710184]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>15.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4564328</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.710184</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4564328,-30.710184,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M016</name>
+      <description><![CDATA[Number: 16<br>Degrees_Longitude: 21.4464625<br>Degrees_Latitude: -30.71021]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>16.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4464625</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71021</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4464625,-30.71021,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M017</name>
+      <description><![CDATA[Number: 17<br>Degrees_Longitude: 21.4428561<br>Degrees_Latitude: -30.710901]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>17.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4428561</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.710901</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4428561,-30.710901,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M018</name>
+      <description><![CDATA[Number: 18<br>Degrees_Longitude: 21.4399959<br>Degrees_Latitude: -30.71105]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>18.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4399959</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71105</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4399959,-30.71105,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M019</name>
+      <description><![CDATA[Number: 19<br>Degrees_Longitude: 21.4443122<br>Degrees_Latitude: -30.711264]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>19.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4443122</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.711264</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4443122,-30.711264,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M020</name>
+      <description><![CDATA[Number: 20<br>Degrees_Longitude: 21.4476236<br>Degrees_Latitude: -30.71131]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>20.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4476236</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71131</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4476236,-30.71131,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M021</name>
+      <description><![CDATA[Number: 21<br>Degrees_Longitude: 21.4433554<br>Degrees_Latitude: -30.711841]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>21.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4433554</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.711841</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4433554,-30.711841,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M022</name>
+      <description><![CDATA[Number: 22<br>Degrees_Longitude: 21.445973<br>Degrees_Latitude: -30.712068]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>22.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.445973</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712068</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.445973,-30.712068,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M023</name>
+      <description><![CDATA[Number: 23<br>Degrees_Longitude: 21.4429627<br>Degrees_Latitude: -30.712174]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>23.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4429627</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712174</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4429627,-30.712174,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M024</name>
+      <description><![CDATA[Number: 24<br>Degrees_Longitude: 21.4373145<br>Degrees_Latitude: -30.712212]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>24.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4373145</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712212</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4373145,-30.712212,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M025</name>
+      <description><![CDATA[Number: 25<br>Degrees_Longitude: 21.4405252<br>Degrees_Latitude: -30.712338]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>25.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4405252</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712338</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4405252,-30.712338,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M026</name>
+      <description><![CDATA[Number: 26<br>Degrees_Longitude: 21.4439008<br>Degrees_Latitude: -30.712605]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>26.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4439008</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712605</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4439008,-30.712605,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M027</name>
+      <description><![CDATA[Number: 27<br>Degrees_Longitude: 21.4479204<br>Degrees_Latitude: -30.712687]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>27.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4479204</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712687</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4479204,-30.712687,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M028</name>
+      <description><![CDATA[Number: 28<br>Degrees_Longitude: 21.4468974<br>Degrees_Latitude: -30.712732]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>28.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4468974</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712732</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4468974,-30.712732,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M029</name>
+      <description><![CDATA[Number: 29<br>Degrees_Longitude: 21.4431947<br>Degrees_Latitude: -30.71288]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>29.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4431947</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71288</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4431947,-30.71288,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M030</name>
+      <description><![CDATA[Number: 30<br>Degrees_Longitude: 21.443803<br>Degrees_Latitude: -30.712925]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>30.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.443803</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712925</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.443803,-30.712925,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M031</name>
+      <description><![CDATA[Number: 31<br>Degrees_Longitude: 21.4460884<br>Degrees_Latitude: -30.713031]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>31.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4460884</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713031</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4460884,-30.713031,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M032</name>
+      <description><![CDATA[Number: 32<br>Degrees_Longitude: 21.4435544<br>Degrees_Latitude: -30.713078]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>32.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4435544</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713078</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4435544,-30.713078,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M033</name>
+      <description><![CDATA[Number: 33<br>Degrees_Longitude: 21.4449926<br>Degrees_Latitude: -30.713273]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>33.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4449926</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713273</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4449926,-30.713273,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M034</name>
+      <description><![CDATA[Number: 34<br>Degrees_Longitude: 21.4425991<br>Degrees_Latitude: -30.713336]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>34.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4425991</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713336</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4425991,-30.713336,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M035</name>
+      <description><![CDATA[Number: 35<br>Degrees_Longitude: 21.4428239<br>Degrees_Latitude: -30.713608]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>35.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4428239</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713608</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4428239,-30.713608,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M036</name>
+      <description><![CDATA[Number: 36<br>Degrees_Longitude: 21.4456721<br>Degrees_Latitude: -30.713627]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>36.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4456721</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713627</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4456721,-30.713627,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M037</name>
+      <description><![CDATA[Number: 37<br>Degrees_Longitude: 21.4468189<br>Degrees_Latitude: -30.713632]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>37.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4468189</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713632</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4468189,-30.713632,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M038</name>
+      <description><![CDATA[Number: 38<br>Degrees_Longitude: 21.4479423<br>Degrees_Latitude: -30.713677]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>38.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4479423</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713677</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4479423,-30.713677,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M039</name>
+      <description><![CDATA[Number: 39<br>Degrees_Longitude: 21.4436985<br>Degrees_Latitude: -30.71372]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>39.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4436985</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71372</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4436985,-30.71372,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M040</name>
+      <description><![CDATA[Number: 40<br>Degrees_Longitude: 21.4449023<br>Degrees_Latitude: -30.713758]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>40.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4449023</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713758</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4449023,-30.713758,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M041</name>
+      <description><![CDATA[Number: 41<br>Degrees_Longitude: 21.4407999<br>Degrees_Latitude: -30.714007]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>41.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4407999</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.714007</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4407999,-30.714007,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M042</name>
+      <description><![CDATA[Number: 42<br>Degrees_Longitude: 21.4447659<br>Degrees_Latitude: -30.714231]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>42.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4447659</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.714231</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4447659,-30.714231,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M043</name>
+      <description><![CDATA[Number: 43<br>Degrees_Longitude: 21.4453505<br>Degrees_Latitude: -30.714376]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>43.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4453505</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.714376</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4453505,-30.714376,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M044</name>
+      <description><![CDATA[Number: 44<br>Degrees_Longitude: 21.4442268<br>Degrees_Latitude: -30.714402]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>44.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4442268</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.714402</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4442268,-30.714402,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M045</name>
+      <description><![CDATA[Number: 45<br>Degrees_Longitude: 21.4463607<br>Degrees_Latitude: -30.714604]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>45.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4463607</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.714604</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4463607,-30.714604,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M046</name>
+      <description><![CDATA[Number: 46<br>Degrees_Longitude: 21.4429543<br>Degrees_Latitude: -30.714687]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>46.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4429543</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.714687</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4429543,-30.714687,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M047</name>
+      <description><![CDATA[Number: 47<br>Degrees_Longitude: 21.447859<br>Degrees_Latitude: -30.715197]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>47.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.447859</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.715197</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.447859,-30.715197,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M048</name>
+      <description><![CDATA[Number: 48<br>Degrees_Longitude: 21.4401136<br>Degrees_Latitude: -30.715206]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>48.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4401136</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.715206</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4401136,-30.715206,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M049</name>
+      <description><![CDATA[Number: 49<br>Degrees_Longitude: 21.4529914<br>Degrees_Latitude: -30.715563]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>49.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4529914</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.715563</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4529914,-30.715563,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M050</name>
+      <description><![CDATA[Number: 50<br>Degrees_Longitude: 21.444809<br>Degrees_Latitude: -30.715672]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>50.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.444809</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.715672</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.444809,-30.715672,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M051</name>
+      <description><![CDATA[Number: 51<br>Degrees_Longitude: 21.4378529<br>Degrees_Latitude: -30.71572]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>51.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4378529</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71572</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4378529,-30.71572,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M052</name>
+      <description><![CDATA[Number: 52<br>Degrees_Longitude: 21.4429127<br>Degrees_Latitude: -30.71588]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>52.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4429127</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71588</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4429127,-30.71588,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M053</name>
+      <description><![CDATA[Number: 53<br>Degrees_Longitude: 21.446116<br>Degrees_Latitude: -30.716188]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>53.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.446116</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.716188</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.446116,-30.716188,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M054</name>
+      <description><![CDATA[Number: 54<br>Degrees_Longitude: 21.4465384<br>Degrees_Latitude: -30.716396]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>54.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4465384</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.716396</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4465384,-30.716396,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M055</name>
+      <description><![CDATA[Number: 55<br>Degrees_Longitude: 21.440888<br>Degrees_Latitude: -30.717023]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>55.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.440888</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.717023</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.440888,-30.717023,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M056</name>
+      <description><![CDATA[Number: 56<br>Degrees_Longitude: 21.4436093<br>Degrees_Latitude: -30.717478]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>56.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4436093</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.717478</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4436093,-30.717478,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M057</name>
+      <description><![CDATA[Number: 57<br>Degrees_Longitude: 21.4350137<br>Degrees_Latitude: -30.717994]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>57.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4350137</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.717994</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4350137,-30.717994,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M058</name>
+      <description><![CDATA[Number: 58<br>Degrees_Longitude: 21.4224655<br>Degrees_Latitude: -30.718662]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>58.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4224655</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.718662</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4224655,-30.718662,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M059</name>
+      <description><![CDATA[Number: 59<br>Degrees_Longitude: 21.4376965<br>Degrees_Latitude: -30.721414]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>59.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4376965</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.721414</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4376965,-30.721414,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M060</name>
+      <description><![CDATA[Number: 60<br>Degrees_Longitude: 21.4439872<br>Degrees_Latitude: -30.722819]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>60.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4439872</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.722819</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4439872,-30.722819,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M061</name>
+      <description><![CDATA[Number: 61<br>Degrees_Longitude: 21.4795886<br>Degrees_Latitude: -30.727648]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>61.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4795886</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.727648</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4795886,-30.727648,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M062</name>
+      <description><![CDATA[Number: 62<br>Degrees_Longitude: 21.4081913<br>Degrees_Latitude: -30.727648]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>62.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4081913</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.727648</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4081913,-30.727648,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M063</name>
+      <description><![CDATA[Number: 63<br>Degrees_Longitude: 21.4437176<br>Degrees_Latitude: -30.732012]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>63.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4437176</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.732012</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4437176,-30.732012,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M064</name>
+      <description><![CDATA[Number: 64<br>Degrees_Longitude: 21.4288489<br>Degrees_Latitude: -30.733634]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>64.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4288489</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.733634</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4288489,-30.733634,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA001</name>
+      <description><![CDATA[Number: 65<br>Degrees_Longitude: 21.449412<br>Degrees_Latitude: -30.71329]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>65.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.449412</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71329</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.449412,-30.71329,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA002</name>
+      <description><![CDATA[Number: 66<br>Degrees_Longitude: 21.443214<br>Degrees_Latitude: -30.711544]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>66.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.443214</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.711544</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.443214,-30.711544,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA003</name>
+      <description><![CDATA[Number: 67<br>Degrees_Longitude: 21.442342<br>Degrees_Latitude: -30.710966]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>67.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.442342</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.710966</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.442342,-30.710966,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA004</name>
+      <description><![CDATA[Number: 68<br>Degrees_Longitude: 22.2217939<br>Degrees_Latitude: -30.262608]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>68.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>22.2217939</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.262608</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          22.2217939,-30.262608,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA005</name>
+      <description><![CDATA[Number: 69<br>Degrees_Longitude: 20.8890257<br>Degrees_Latitude: -30.266774]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>69.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>20.8890257</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.266774</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          20.8890257,-30.266774,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA006</name>
+      <description><![CDATA[Number: 70<br>Degrees_Longitude: 21.1118102<br>Degrees_Latitude: -30.268699]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>70.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.1118102</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.268699</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.1118102,-30.268699,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA007</name>
+      <description><![CDATA[Number: 71<br>Degrees_Longitude: 21.2857055<br>Degrees_Latitude: -30.308442]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>71.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.2857055</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.308442</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.2857055,-30.308442,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA008</name>
+      <description><![CDATA[Number: 72<br>Degrees_Longitude: 20.6206745<br>Degrees_Latitude: -30.32309]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>72.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>20.6206745</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.32309</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          20.6206745,-30.32309,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA009</name>
+      <description><![CDATA[Number: 73<br>Degrees_Longitude: 21.4128112<br>Degrees_Latitude: -30.369509]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>73.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4128112</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.369509</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4128112,-30.369509,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA010</name>
+      <description><![CDATA[Number: 74<br>Degrees_Longitude: 21.4812139<br>Degrees_Latitude: -30.439265]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>74.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4812139</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.439265</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4812139,-30.439265,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA011</name>
+      <description><![CDATA[Number: 75<br>Degrees_Longitude: 22.1574255<br>Degrees_Latitude: -30.495371]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>75.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>22.1574255</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.495371</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          22.1574255,-30.495371,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA012</name>
+      <description><![CDATA[Number: 76<br>Degrees_Longitude: 21.5473569<br>Degrees_Latitude: -30.508317]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>76.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.5473569</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.508317</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.5473569,-30.508317,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA013</name>
+      <description><![CDATA[Number: 77<br>Degrees_Longitude: 21.5733041<br>Degrees_Latitude: -30.571138]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>77.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.5733041</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.571138</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.5733041,-30.571138,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA014</name>
+      <description><![CDATA[Number: 78<br>Degrees_Longitude: 21.56761<br>Degrees_Latitude: -30.622713]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>78.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.56761</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.622713</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.56761,-30.622713,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA015</name>
+      <description><![CDATA[Number: 79<br>Degrees_Longitude: 21.374214<br>Degrees_Latitude: -30.638584]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>79.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.374214</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.638584</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.374214,-30.638584,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA016</name>
+      <description><![CDATA[Number: 80<br>Degrees_Longitude: 21.3340906<br>Degrees_Latitude: -30.641813]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>80.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.3340906</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.641813</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.3340906,-30.641813,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA017</name>
+      <description><![CDATA[Number: 81<br>Degrees_Longitude: 21.4063313<br>Degrees_Latitude: -30.642963]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>81.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4063313</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.642963</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4063313,-30.642963,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA018</name>
+      <description><![CDATA[Number: 82<br>Degrees_Longitude: 21.430449<br>Degrees_Latitude: -30.651906]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>82.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.430449</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.651906</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.430449,-30.651906,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA019</name>
+      <description><![CDATA[Number: 83<br>Degrees_Longitude: 21.2871238<br>Degrees_Latitude: -30.656278]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>83.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.2871238</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.656278</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.2871238,-30.656278,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA020</name>
+      <description><![CDATA[Number: 84<br>Degrees_Longitude: 21.4472571<br>Degrees_Latitude: -30.663055]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>84.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4472571</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.663055</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4472571,-30.663055,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA021</name>
+      <description><![CDATA[Number: 85<br>Degrees_Longitude: 22.0491848<br>Degrees_Latitude: -30.663947]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>85.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>22.0491848</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.663947</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          22.0491848,-30.663947,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA022</name>
+      <description><![CDATA[Number: 86<br>Degrees_Longitude: 21.5687373<br>Degrees_Latitude: -30.666963]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>86.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.5687373</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.666963</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.5687373,-30.666963,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA023</name>
+      <description><![CDATA[Number: 87<br>Degrees_Longitude: 21.4578392<br>Degrees_Latitude: -30.674663]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>87.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4578392</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.674663</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4578392,-30.674663,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA024</name>
+      <description><![CDATA[Number: 88<br>Degrees_Longitude: 21.4634453<br>Degrees_Latitude: -30.685568]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>88.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4634453</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.685568</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4634453,-30.685568,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA025</name>
+      <description><![CDATA[Number: 89<br>Degrees_Longitude: 21.2352359<br>Degrees_Latitude: -30.685611]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>89.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.2352359</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.685611</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.2352359,-30.685611,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA026</name>
+      <description><![CDATA[Number: 90<br>Degrees_Longitude: 21.466419<br>Degrees_Latitude: -30.693932]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>90.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.466419</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.693932</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.466419,-30.693932,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA027</name>
+      <description><![CDATA[Number: 91<br>Degrees_Longitude: 21.5519732<br>Degrees_Latitude: -30.698639]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>91.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.5519732</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.698639</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.5519732,-30.698639,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA028</name>
+      <description><![CDATA[Number: 92<br>Degrees_Longitude: 21.4286368<br>Degrees_Latitude: -30.701155]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>92.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4286368</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.701155</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4286368,-30.701155,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA029</name>
+      <description><![CDATA[Number: 93<br>Degrees_Longitude: 21.4344917<br>Degrees_Latitude: -30.701264]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>93.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4344917</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.701264</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4344917,-30.701264,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA030</name>
+      <description><![CDATA[Number: 94<br>Degrees_Longitude: 21.439049<br>Degrees_Latitude: -30.702356]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>94.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.439049</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.702356</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.439049,-30.702356,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA031</name>
+      <description><![CDATA[Number: 95<br>Degrees_Longitude: 21.4215593<br>Degrees_Latitude: -30.70258]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>95.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4215593</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.70258</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4215593,-30.70258,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA032</name>
+      <description><![CDATA[Number: 96<br>Degrees_Longitude: 21.4645868<br>Degrees_Latitude: -30.702805]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>96.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4645868</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.702805</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4645868,-30.702805,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA033</name>
+      <description><![CDATA[Number: 97<br>Degrees_Longitude: 21.4444697<br>Degrees_Latitude: -30.704982]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>97.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4444697</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.704982</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4444697,-30.704982,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA034</name>
+      <description><![CDATA[Number: 98<br>Degrees_Longitude: 21.4135728<br>Degrees_Latitude: -30.706149]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>98.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4135728</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.706149</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4135728,-30.706149,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA035</name>
+      <description><![CDATA[Number: 99<br>Degrees_Longitude: 21.4409894<br>Degrees_Latitude: -30.706517]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>99.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4409894</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.706517</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4409894,-30.706517,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA036</name>
+      <description><![CDATA[Number: 100<br>Degrees_Longitude: 21.4453007<br>Degrees_Latitude: -30.70782]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>100.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4453007</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.70782</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4453007,-30.70782,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA037</name>
+      <description><![CDATA[Number: 101<br>Degrees_Longitude: 21.4622289<br>Degrees_Latitude: -30.708744]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>101.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4622289</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.708744</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4622289,-30.708744,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA038</name>
+      <description><![CDATA[Number: 102<br>Degrees_Longitude: 21.4405906<br>Degrees_Latitude: -30.708913]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>102.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4405906</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.708913</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4405906,-30.708913,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA039</name>
+      <description><![CDATA[Number: 103<br>Degrees_Longitude: 21.4436864<br>Degrees_Latitude: -30.709254]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>103.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4436864</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.709254</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4436864,-30.709254,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA040</name>
+      <description><![CDATA[Number: 104<br>Degrees_Longitude: 21.4346288<br>Degrees_Latitude: -30.709314]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>104.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4346288</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.709314</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4346288,-30.709314,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA041</name>
+      <description><![CDATA[Number: 105<br>Degrees_Longitude: 21.4416387<br>Degrees_Latitude: -30.71069]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>105.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4416387</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71069</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4416387,-30.71069,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA042</name>
+      <description><![CDATA[Number: 106<br>Degrees_Longitude: 21.4451202<br>Degrees_Latitude: -30.711168]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>106.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4451202</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.711168</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4451202,-30.711168,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA043</name>
+      <description><![CDATA[Number: 107<br>Degrees_Longitude: 21.4390904<br>Degrees_Latitude: -30.711278]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>107.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4390904</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.711278</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4390904,-30.711278,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA044</name>
+      <description><![CDATA[Number: 108<br>Degrees_Longitude: 21.4437639<br>Degrees_Latitude: -30.71128]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>108.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4437639</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71128</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4437639,-30.71128,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA045</name>
+      <description><![CDATA[Number: 109<br>Degrees_Longitude: 21.4522796<br>Degrees_Latitude: -30.711729]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>109.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4522796</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.711729</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4522796,-30.711729,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA046</name>
+      <description><![CDATA[Number: 110<br>Degrees_Longitude: 21.4443592<br>Degrees_Latitude: -30.711825]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>110.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4443592</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.711825</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4443592,-30.711825,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA047</name>
+      <description><![CDATA[Number: 111<br>Degrees_Longitude: 21.4405425<br>Degrees_Latitude: -30.711918]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>111.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4405425</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.711918</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4405425,-30.711918,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA048</name>
+      <description><![CDATA[Number: 112<br>Degrees_Longitude: 21.4423558<br>Degrees_Latitude: -30.712025]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>112.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4423558</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712025</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4423558,-30.712025,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA049</name>
+      <description><![CDATA[Number: 113<br>Degrees_Longitude: 21.4435744<br>Degrees_Latitude: -30.712107]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>113.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4435744</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712107</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4435744,-30.712107,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA050</name>
+      <description><![CDATA[Number: 114<br>Degrees_Longitude: 21.4444375<br>Degrees_Latitude: -30.712193]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>114.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4444375</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712193</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4444375,-30.712193,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA051</name>
+      <description><![CDATA[Number: 115<br>Degrees_Longitude: 21.4439168<br>Degrees_Latitude: -30.712207]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>115.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4439168</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712207</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4439168,-30.712207,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA052</name>
+      <description><![CDATA[Number: 116<br>Degrees_Longitude: 21.4426256<br>Degrees_Latitude: -30.71221]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>116.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4426256</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71221</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4426256,-30.71221,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA053</name>
+      <description><![CDATA[Number: 117<br>Degrees_Longitude: 21.4433231<br>Degrees_Latitude: -30.712317]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>117.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4433231</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712317</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4433231,-30.712317,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA054</name>
+      <description><![CDATA[Number: 118<br>Degrees_Longitude: 21.4473345<br>Degrees_Latitude: -30.712406]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>118.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4473345</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712406</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4473345,-30.712406,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA055</name>
+      <description><![CDATA[Number: 119<br>Degrees_Longitude: 21.4416585<br>Degrees_Latitude: -30.712409]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>119.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4416585</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712409</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4416585,-30.712409,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA056</name>
+      <description><![CDATA[Number: 120<br>Degrees_Longitude: 21.4436675<br>Degrees_Latitude: -30.712428]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>120.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4436675</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712428</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4436675,-30.712428,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA057</name>
+      <description><![CDATA[Number: 121<br>Degrees_Longitude: 21.4429691<br>Degrees_Latitude: -30.71245]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>121.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4429691</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71245</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4429691,-30.71245,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA058</name>
+      <description><![CDATA[Number: 122<br>Degrees_Longitude: 21.4422514<br>Degrees_Latitude: -30.712485]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>122.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4422514</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712485</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4422514,-30.712485,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA059</name>
+      <description><![CDATA[Number: 123<br>Degrees_Longitude: 21.4442278<br>Degrees_Latitude: -30.712544]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>123.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4442278</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712544</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4442278,-30.712544,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA060</name>
+      <description><![CDATA[Number: 124<br>Degrees_Longitude: 21.4052401<br>Degrees_Latitude: -30.712547]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>124.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4052401</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712547</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4052401,-30.712547,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA061</name>
+      <description><![CDATA[Number: 125<br>Degrees_Longitude: 21.445672<br>Degrees_Latitude: -30.712552]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>125.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.445672</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712552</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.445672,-30.712552,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA062</name>
+      <description><![CDATA[Number: 126<br>Degrees_Longitude: 21.4432796<br>Degrees_Latitude: -30.712597]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>126.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4432796</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712597</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4432796,-30.712597,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA063</name>
+      <description><![CDATA[Number: 127<br>Degrees_Longitude: 21.4352434<br>Degrees_Latitude: -30.712648]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>127.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4352434</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712648</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4352434,-30.712648,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA064</name>
+      <description><![CDATA[Number: 128<br>Degrees_Longitude: 21.4426044<br>Degrees_Latitude: -30.712715]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>128.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4426044</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712715</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4426044,-30.712715,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA065</name>
+      <description><![CDATA[Number: 129<br>Degrees_Longitude: 21.4429391<br>Degrees_Latitude: -30.712722]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>129.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4429391</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712722</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4429391,-30.712722,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA066</name>
+      <description><![CDATA[Number: 130<br>Degrees_Longitude: 21.4445107<br>Degrees_Latitude: -30.71285]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>130.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4445107</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71285</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4445107,-30.71285,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA067</name>
+      <description><![CDATA[Number: 131<br>Degrees_Longitude: 21.4451171<br>Degrees_Latitude: -30.712941]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>131.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4451171</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712941</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4451171,-30.712941,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA068</name>
+      <description><![CDATA[Number: 132<br>Degrees_Longitude: 21.4419132<br>Degrees_Latitude: -30.71295]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>132.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4419132</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71295</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4419132,-30.71295,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA069</name>
+      <description><![CDATA[Number: 133<br>Degrees_Longitude: 21.4426862<br>Degrees_Latitude: -30.712981]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>133.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4426862</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712981</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4426862,-30.712981,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA070</name>
+      <description><![CDATA[Number: 134<br>Degrees_Longitude: 21.4590247<br>Degrees_Latitude: -30.712981]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>134.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4590247</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712981</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4590247,-30.712981,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA071</name>
+      <description><![CDATA[Number: 135<br>Degrees_Longitude: 21.4441059<br>Degrees_Latitude: -30.712991]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>135.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4441059</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.712991</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4441059,-30.712991,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA072</name>
+      <description><![CDATA[Number: 136<br>Degrees_Longitude: 21.4423381<br>Degrees_Latitude: -30.71309]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>136.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4423381</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71309</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4423381,-30.71309,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA073</name>
+      <description><![CDATA[Number: 137<br>Degrees_Longitude: 21.4432221<br>Degrees_Latitude: -30.713174]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>137.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4432221</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713174</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4432221,-30.713174,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA074</name>
+      <description><![CDATA[Number: 138<br>Degrees_Longitude: 21.442917<br>Degrees_Latitude: -30.71328]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>138.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.442917</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71328</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.442917,-30.71328,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA075</name>
+      <description><![CDATA[Number: 139<br>Degrees_Longitude: 21.4439358<br>Degrees_Latitude: -30.713328]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>139.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4439358</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713328</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4439358,-30.713328,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA076</name>
+      <description><![CDATA[Number: 140<br>Degrees_Longitude: 21.4442883<br>Degrees_Latitude: -30.713364]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>140.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4442883</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713364</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4442883,-30.713364,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA077</name>
+      <description><![CDATA[Number: 141<br>Degrees_Longitude: 21.4400382<br>Degrees_Latitude: -30.713405]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>141.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4400382</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713405</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4400382,-30.713405,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA078</name>
+      <description><![CDATA[Number: 142<br>Degrees_Longitude: 21.4422628<br>Degrees_Latitude: -30.713413]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>142.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4422628</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713413</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4422628,-30.713413,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA079</name>
+      <description><![CDATA[Number: 143<br>Degrees_Longitude: 21.4435953<br>Degrees_Latitude: -30.713434]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>143.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4435953</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713434</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4435953,-30.713434,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA080</name>
+      <description><![CDATA[Number: 144<br>Degrees_Longitude: 21.4432548<br>Degrees_Latitude: -30.71348]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>144.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4432548</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71348</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4432548,-30.71348,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA081</name>
+      <description><![CDATA[Number: 145<br>Degrees_Longitude: 21.4446124<br>Degrees_Latitude: -30.713603]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>145.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4446124</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713603</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4446124,-30.713603,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA082</name>
+      <description><![CDATA[Number: 146<br>Degrees_Longitude: 21.4440499<br>Degrees_Latitude: -30.713665]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>146.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4440499</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713665</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4440499,-30.713665,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA083</name>
+      <description><![CDATA[Number: 147<br>Degrees_Longitude: 21.4377571<br>Degrees_Latitude: -30.713717]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>147.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4377571</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713717</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4377571,-30.713717,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA084</name>
+      <description><![CDATA[Number: 148<br>Degrees_Longitude: 21.4418779<br>Degrees_Latitude: -30.713786]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>148.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4418779</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713786</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4418779,-30.713786,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA085</name>
+      <description><![CDATA[Number: 149<br>Degrees_Longitude: 21.4424806<br>Degrees_Latitude: -30.713809]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>149.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4424806</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713809</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4424806,-30.713809,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA086</name>
+      <description><![CDATA[Number: 150<br>Degrees_Longitude: 21.4434036<br>Degrees_Latitude: -30.713858]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>150.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4434036</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.713858</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4434036,-30.713858,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA087</name>
+      <description><![CDATA[Number: 151<br>Degrees_Longitude: 21.4427442<br>Degrees_Latitude: -30.714023]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>151.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4427442</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.714023</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4427442,-30.714023,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA088</name>
+      <description><![CDATA[Number: 152<br>Degrees_Longitude: 21.4436833<br>Degrees_Latitude: -30.714159]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>152.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4436833</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.714159</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4436833,-30.714159,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA089</name>
+      <description><![CDATA[Number: 153<br>Degrees_Longitude: 21.4457952<br>Degrees_Latitude: -30.71416]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>153.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4457952</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71416</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4457952,-30.71416,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA090</name>
+      <description><![CDATA[Number: 154<br>Degrees_Longitude: 21.4410498<br>Degrees_Latitude: -30.714684]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>154.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4410498</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.714684</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4410498,-30.714684,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA091</name>
+      <description><![CDATA[Number: 155<br>Degrees_Longitude: 21.4435517<br>Degrees_Latitude: -30.714778]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>155.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4435517</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.714778</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4435517,-30.714778,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA092</name>
+      <description><![CDATA[Number: 156<br>Degrees_Longitude: 21.4474835<br>Degrees_Latitude: -30.714879]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>156.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4474835</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.714879</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4474835,-30.714879,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA093</name>
+      <description><![CDATA[Number: 157<br>Degrees_Longitude: 21.4421612<br>Degrees_Latitude: -30.714887]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>157.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4421612</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.714887</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4421612,-30.714887,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA094</name>
+      <description><![CDATA[Number: 158<br>Degrees_Longitude: 21.4442517<br>Degrees_Latitude: -30.715123]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>158.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4442517</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.715123</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4442517,-30.715123,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA095</name>
+      <description><![CDATA[Number: 159<br>Degrees_Longitude: 21.4398972<br>Degrees_Latitude: -30.71568]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>159.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4398972</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71568</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4398972,-30.71568,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA096</name>
+      <description><![CDATA[Number: 160<br>Degrees_Longitude: 21.4555383<br>Degrees_Latitude: -30.715743]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>160.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4555383</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.715743</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4555383,-30.715743,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA097</name>
+      <description><![CDATA[Number: 161<br>Degrees_Longitude: 21.4439389<br>Degrees_Latitude: -30.716027]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>161.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4439389</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.716027</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4439389,-30.716027,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA098</name>
+      <description><![CDATA[Number: 162<br>Degrees_Longitude: 21.4376419<br>Degrees_Latitude: -30.716174]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>162.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4376419</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.716174</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4376419,-30.716174,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA099</name>
+      <description><![CDATA[Number: 163<br>Degrees_Longitude: 21.4449919<br>Degrees_Latitude: -30.716377]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>163.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4449919</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.716377</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4449919,-30.716377,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA100</name>
+      <description><![CDATA[Number: 164<br>Degrees_Longitude: 21.4490364<br>Degrees_Latitude: -30.717223]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>164.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4490364</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.717223</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4490364,-30.717223,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA101</name>
+      <description><![CDATA[Number: 165<br>Degrees_Longitude: 21.444662<br>Degrees_Latitude: -30.718358]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>165.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.444662</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.718358</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.444662,-30.718358,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA102</name>
+      <description><![CDATA[Number: 166<br>Degrees_Longitude: 21.4363558<br>Degrees_Latitude: -30.71874]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>166.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4363558</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.71874</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4363558,-30.71874,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA103</name>
+      <description><![CDATA[Number: 167<br>Degrees_Longitude: 21.4402166<br>Degrees_Latitude: -30.719265]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>167.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4402166</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.719265</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4402166,-30.719265,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA104</name>
+      <description><![CDATA[Number: 168<br>Degrees_Longitude: 21.4472659<br>Degrees_Latitude: -30.720233]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>168.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4472659</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.720233</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4472659,-30.720233,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA105</name>
+      <description><![CDATA[Number: 169<br>Degrees_Longitude: 21.533032<br>Degrees_Latitude: -30.723924]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>169.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.533032</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.723924</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.533032,-30.723924,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA106</name>
+      <description><![CDATA[Number: 170<br>Degrees_Longitude: 21.4339794<br>Degrees_Latitude: -30.721009]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>170.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4339794</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.721009</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4339794,-30.721009,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA107</name>
+      <description><![CDATA[Number: 171<br>Degrees_Longitude: 21.3974997<br>Degrees_Latitude: -30.722426]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>171.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.3974997</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.722426</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.3974997,-30.722426,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA108</name>
+      <description><![CDATA[Number: 172<br>Degrees_Longitude: 21.4350033<br>Degrees_Latitude: -30.724996]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>172.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4350033</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.724996</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4350033,-30.724996,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA109</name>
+      <description><![CDATA[Number: 173<br>Degrees_Longitude: 21.4376456<br>Degrees_Latitude: -30.729515]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>173.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4376456</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.729515</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4376456,-30.729515,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA110</name>
+      <description><![CDATA[Number: 174<br>Degrees_Longitude: 21.5105276<br>Degrees_Latitude: -30.734134]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>174.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.5105276</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.734134</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.5105276,-30.734134,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA111</name>
+      <description><![CDATA[Number: 175<br>Degrees_Longitude: 21.4424172<br>Degrees_Latitude: -30.734251]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>175.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4424172</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.734251</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4424172,-30.734251,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA112</name>
+      <description><![CDATA[Number: 176<br>Degrees_Longitude: 21.1844568<br>Degrees_Latitude: -30.735364]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>176.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.1844568</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.735364</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.1844568,-30.735364,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA113</name>
+      <description><![CDATA[Number: 177<br>Degrees_Longitude: 21.3917083<br>Degrees_Latitude: -30.736333]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>177.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.3917083</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.736333</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.3917083,-30.736333,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA114</name>
+      <description><![CDATA[Number: 178<br>Degrees_Longitude: 21.4498209<br>Degrees_Latitude: -30.738661]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>178.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4498209</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.738661</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4498209,-30.738661,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA115</name>
+      <description><![CDATA[Number: 179<br>Degrees_Longitude: 21.4908526<br>Degrees_Latitude: -30.736857]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>179.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4908526</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.736857</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4908526,-30.736857,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA116</name>
+      <description><![CDATA[Number: 180<br>Degrees_Longitude: 21.4602722<br>Degrees_Latitude: -30.742016]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>180.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4602722</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.742016</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4602722,-30.742016,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA117</name>
+      <description><![CDATA[Number: 181<br>Degrees_Longitude: 21.4728481<br>Degrees_Latitude: -30.736715]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>181.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4728481</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.736715</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4728481,-30.736715,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA118</name>
+      <description><![CDATA[Number: 182<br>Degrees_Longitude: 21.3946819<br>Degrees_Latitude: -30.753799]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>182.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.3946819</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.753799</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.3946819,-30.753799,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA119</name>
+      <description><![CDATA[Number: 183<br>Degrees_Longitude: 21.3936716<br>Degrees_Latitude: -30.776987]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>183.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.3936716</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.776987</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.3936716,-30.776987,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA120</name>
+      <description><![CDATA[Number: 184<br>Degrees_Longitude: 21.9307624<br>Degrees_Latitude: -30.781482]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>184.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.9307624</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.781482</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.9307624,-30.781482,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA121</name>
+      <description><![CDATA[Number: 185<br>Degrees_Longitude: 21.4064274<br>Degrees_Latitude: -30.80286]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>185.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4064274</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.80286</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4064274,-30.80286,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA122</name>
+      <description><![CDATA[Number: 186<br>Degrees_Longitude: 21.1403739<br>Degrees_Latitude: -30.808077]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>186.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.1403739</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.808077</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.1403739,-30.808077,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA123</name>
+      <description><![CDATA[Number: 187<br>Degrees_Longitude: 21.4255118<br>Degrees_Latitude: -30.839095]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>187.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4255118</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.839095</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4255118,-30.839095,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA124</name>
+      <description><![CDATA[Number: 188<br>Degrees_Longitude: 21.8087982<br>Degrees_Latitude: -30.850668]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>188.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.8087982</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.850668</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.8087982,-30.850668,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA125</name>
+      <description><![CDATA[Number: 189<br>Degrees_Longitude: 21.4607747<br>Degrees_Latitude: -30.865551]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>189.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4607747</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.865551</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4607747,-30.865551,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA126</name>
+      <description><![CDATA[Number: 190<br>Degrees_Longitude: 21.5267438<br>Degrees_Latitude: -30.879119]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>190.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.5267438</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.879119</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.5267438,-30.879119,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA127</name>
+      <description><![CDATA[Number: 191<br>Degrees_Longitude: 21.6973379<br>Degrees_Latitude: -30.883676]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>191.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.6973379</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.883676</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.6973379,-30.883676,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA128</name>
+      <description><![CDATA[Number: 192<br>Degrees_Longitude: 21.6024953<br>Degrees_Latitude: -30.890232]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>192.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.6024953</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.890232</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.6024953,-30.890232,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA129</name>
+      <description><![CDATA[Number: 193<br>Degrees_Longitude: 21.1131812<br>Degrees_Latitude: -30.907047]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>193.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.1131812</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-30.907047</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.1131812,-30.907047,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA130</name>
+      <description><![CDATA[Number: 194<br>Degrees_Longitude: 21.078446<br>Degrees_Latitude: -31.040003]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>194.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.078446</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-31.040003</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.078446,-31.040003,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA131</name>
+      <description><![CDATA[Number: 195<br>Degrees_Longitude: 21.1654996<br>Degrees_Latitude: -31.187658]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>195.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.1654996</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-31.187658</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.1654996,-31.187658,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA132</name>
+      <description><![CDATA[Number: 196<br>Degrees_Longitude: 21.2740177<br>Degrees_Latitude: -31.351808]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>196.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.2740177</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-31.351808</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.2740177,-31.351808,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SKA133</name>
+      <description><![CDATA[Number: 197<br>Degrees_Longitude: 21.4678033<br>Degrees_Latitude: -31.524423]]></description>
+      <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Number">
+          <value>197.0</value>
+        </Data>
+        <Data name="Degrees_Longitude">
+          <value>21.4678033</value>
+        </Data>
+        <Data name="Degrees_Latitude">
+          <value>-31.524423</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.4678033,-31.524423,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
