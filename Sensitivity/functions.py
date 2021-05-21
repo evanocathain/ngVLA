@@ -38,7 +38,7 @@ def get_aeff(telescope,plot):
         D    = 100.0 # dish diameter in metres
         
     else:
-        print "No idea what type of telescope I'm supposed to be calculating for. FAIL."
+        print("No idea what type of telescope I'm supposed to be calculating for. FAIL.")
         sys.exit(-1)
 
     # Some basic stuff - could do this better with astropy!
