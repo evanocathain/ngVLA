@@ -123,31 +123,34 @@ if ((radius < 150.0) or (nelements < 197)):
         nelements = subarray.shape[0]
     Nska = Nmk = 0
     for i in range(0,nelements):
-        if subarray[i][0][0] == 'M':
+        print(subarray[i][0][0], "bla")
+        if subarray[i][0][0] == 77:   # ascii code for 'M' is 77
             Nmk +=1
-        elif subarray[i][0][0] == 'S':
+        elif subarray[i][0][0] == 83: # ascii code for 'S' is 83
             Nska +=1
     if (tel == "mk"):
         Nska = 0
     if (tel == "ska"):
         Nmk = 0
-    print "Considering a radius of %.1f"%(subdist[nelements-1])
-    print "Considering %d SKA and %d MeerKAT dishes"%(Nska,Nmk)
+    print("Considering a radius of %.1f"%(subdist[nelements-1]))
+    print("Considering %d SKA and %d MeerKAT dishes"%(Nska,Nmk))
     plt.grid(True)
     plt.loglog(f,Nska*(Aeff_SKA(f)/Tsys_SKA(f))+Nmk*(Aeff_MK(f)/Tsys_MK(f)))
-    plt.title("Gain - subarray radius %.1f km - %d SKA1 + %d MeerKAT"%(radius,Nska,Nmk))
+#    plt.title("Gain - subarray radius %.1f km - %d SKA1 + %d MeerKAT"%(radius,Nska,Nmk))
+    plt.title("Gain - subarray radius %.1f km - %d SKA1 + %d MeerKAT"%(subdist[nelements-1],Nska,Nmk))
     plt.ylabel("Aeff/Tsys (m^2/K)")
     plt.xlabel("Frequency (GHz)")
     plt.show()
     plt.grid(True)
     plt.loglog(f,Nska*(Aeff_SKA(f)/(2*kB))+Nmk*(Aeff_MK(f)/(2*kB)))
-    plt.title("Gain - subarray radius %.1f km - %d SKA1 + %d MeerKAT"%(radius,Nska,Nmk))
+#    plt.title("Gain - subarray radius %.1f km - %d SKA1 + %d MeerKAT"%(radius,Nska,Nmk))
+    plt.title("Gain - subarray radius %.1f km - %d SKA1 + %d MeerKAT"%(subdist[nelements-1],Nska,Nmk))
     plt.ylabel("Aeff/(2*kB) (K/Jy)")
     plt.xlabel("Frequency (GHz)")
     plt.show()
 
 
 for i in range (0,f.size):
-    print f[i], Nska*(Aeff_SKA(f[i])/Tsys_SKA(f[i]))+Nmk*(Aeff_MK(f[i])/Tsys_MK(f[i]))
+    print(f[i], Nska*(Aeff_SKA(f[i])/Tsys_SKA(f[i]))+Nmk*(Aeff_MK(f[i])/Tsys_MK(f[i])))
 
 sys.exit()
