@@ -3,6 +3,10 @@
 #
 # A very simple gnuplot script to plot the cumulative number 
 # of dishes/stations, collecting area etc. for SKA1 Mid and Low.
+# 
+# Update 31/05/2021
+# Adding in ngVLA
+#
 
 # Plot formatting
 set key top left box
@@ -26,3 +30,10 @@ pause mouse
 set ylabel "Number of stations"
 set xlabel "Distance from array centre (km)"
 plot "< awk '{print 0.001*sqrt($3*$3+$4*$4)|\"sort -g -k1\"}' LOW_dist_metres.txt | cat -n" u 2:1 wi li title "SKA1-Low Total"
+
+pause mouse
+
+# LOW
+set ylabel "Number of dishes"
+set xlabel "Distance from array centre (km)"
+plot "< awk '{print 0.001*sqrt($3*$3+$4*$4)|\"sort -g -k1\"}' ngvla_dist_metres.txt | cat -n" u 2:1 wi li title "ngVLA Main Array Total"
