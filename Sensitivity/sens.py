@@ -56,6 +56,7 @@ nelements = args.nelements
 # Get the effective collecting area
 Aeff_SKA = get_aeff("SKA",plot)
 Aeff_MK  = get_aeff("MeerKAT",plot)
+Aeff_ngVLA = get_aeff("ngVLA",plot)
 #Aeff_Eff  = get_aeff("Effelsberg",plot)
 
 # System Temperature
@@ -63,7 +64,8 @@ Aeff_MK  = get_aeff("MeerKAT",plot)
 #get_tsys("MeerKAT")
 Tsys_SKA, f = get_tsys("SKA",gal,pwv,zenith,plot)
 Tsys_MK, f  = get_tsys("MeerKAT",gal,pwv,zenith,plot)
-#Tsys_Eff, f = get_tsys("Effelsberg",gal,pwv,zenith,plot)
+#Tsys_Eff, f = get_tsys("Effelsberg",gal,pwv,zenith,plot
+Tsys_ngVLA, f = get_tsys("ngVLA",gal,pwv,zenith,plot)
 
 # Gain - single dish
 # in m^2/K (Tsys, i.e. LoS dependent)

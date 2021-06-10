@@ -37,6 +37,16 @@ def get_aeff(telescope,plot):
     elif telescope == "Effelsberg":
         D    = 100.0 # dish diameter in metres
         
+    elif telescope == "ngVLA":
+        D = 18.0 # dish diameter in metres
+        # NEED TO FIND AND ADD THESE NUMBERS FOR ngVLA
+        etaF  = 0.9
+        etaF  = lambda freqGHz: 0.92 - 0.04*np.abs(np.log10(freqGHz)) # feed illumination
+        epsp  = 280.0e-6 # rms surface error in metres for the primary reflector surface
+        epss  = 154.0e-6 # rms surface error in metres for the secondary reflector surface
+        Ap    = 0.89     # unitless constant
+        As    = 0.98     # unitless constant
+
     else:
         print("No idea what type of telescope I'm supposed to be calculating for. FAIL.")
         sys.exit(-1)
@@ -75,6 +85,8 @@ def get_aeff(telescope,plot):
 #        Aeff  = lambda freqGHz: Aphys*etaA(freqGHz)*(np.heaviside((freqGHz-0.050), 1.0)-np.heaviside((freqGHz-0.350),1.0))        # Effective collecting area
     elif telescope == "Effelsberg":
         Aeff  = lambda freqGHz: Aphys*etaA(freqGHz)*(np.heaviside((freqGHz-1.0), 1.0)-np.heaviside((freqGHz-2.0),1.0))        # Effective collecting area
+    elif telescope == "ngVLA":
+        Aeff  = lambda freqGHz: Aphys*etaA(freqGHz)*(np.heaviside((freqGHz-0.58), 1.0)-np.heaviside((freqGHz-3.05),1.0))        # Effective collecting area
 
     return Aeff
 
@@ -92,6 +104,13 @@ def get_tsys(telescope, gal, pwv, zenith, plot):
     elif telescope == "Effelsberg":
         Trcv = lambda freqGHz: 21.0 + freqGHz*0.0
         Tspill = lambda freqGHz: 0.0 + freqGHz*0.0 # don't know
+
+    if telescope == "ngVLA":
+        Trcv = lambda freqGHz: 20.0 + freqGHz*0.0
+        Tspill = lambda freqGHz: 1.0 + freqGHz*0.0
+#        Trcv = lambda freqGHz: (15.0 + 30*(freqGHz - 0.75)**2)*(np.heaviside((freqGHz-0.35),1.0)-np.heaviside((freqGHz-0.95),0.0)) + (7.5)*(np.heaviside((freqGHz-0.95),0.0)-np.heaviside((freqGHz-4.6),0.0)) + (4.4 + 0.69*freqGHz)*(np.heaviside((freqGHz-4.6),0.0)-np.heaviside((freqGHz-50.0),0.0))
+#        Tspill = lambda freqGHz: 3.0 + freqGHz*0.0 # assumed to be this for all Bands but (a) is frequency dependent; (b) is zenith angle dependent - 3 K is thought to be appropriate for zenith < 45 deg; (c) the frequency dependence would actually be such that this should actually be a bit worse for Band 1 as it is not an octave feed.
+
 
     # Sky Temperature
     ## Tgal
