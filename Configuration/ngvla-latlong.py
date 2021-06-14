@@ -13,11 +13,12 @@ R = 6.378e6 #in metres
 
 #to convert to longitude (degrees E)
 def long(x,y):
-    l =  -1*(180 - np.degrees(np.arctan(y/x)))
-    if l == -180:
-        return 0
-    else:
+    l =  np.degrees(np.arctan(y/x))
+    l1 = -1*(180 - l)
+    if abs(l1) > 180:
         return l
+    else: 
+        return l1
 
 #to convert to latitude (degrees N)
 def lat(z,R):
