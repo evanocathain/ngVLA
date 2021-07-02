@@ -40,8 +40,7 @@ def get_aeff(telescope,plot):
     elif telescope == "ngVLA":
         D = 18.0 # dish diameter in metres
         # NEED TO FIND AND ADD THESE NUMBERS FOR ngVLA
-        etaF  = 0.9
-        etaF  = lambda freqGHz: 0.92 - 0.04*np.abs(np.log10(freqGHz)) # feed illumination
+        etaF  = lambda freqGHz: 0.8 + 0.0*freqGHz      # feed illumination - placeholder value
         epsp  = 280.0e-6 # rms surface error in metres for the primary reflector surface
         epss  = 154.0e-6 # rms surface error in metres for the secondary reflector surface
         Ap    = 0.89     # unitless constant
@@ -64,7 +63,8 @@ def get_aeff(telescope,plot):
 #    elif telescope == "Effelsberg":
 #        etaA  = lambda freqGHz: 0.525 + freqGHz*0.0
 
-    freq = np.logspace(np.log10(0.350), np.log10(50.0), 200)
+#    freq = np.logspace(np.log10(0.350), np.log10(50.0), 200)
+    freq = np.logspace(np.log10(1.0), np.log10(50.0), 500)
     if plot == True:
         plt.figure()
         plt.grid(True)
@@ -86,7 +86,7 @@ def get_aeff(telescope,plot):
     elif telescope == "Effelsberg":
         Aeff  = lambda freqGHz: Aphys*etaA(freqGHz)*(np.heaviside((freqGHz-1.0), 1.0)-np.heaviside((freqGHz-2.0),1.0))        # Effective collecting area
     elif telescope == "ngVLA":
-        Aeff  = lambda freqGHz: Aphys*etaA(freqGHz)*(np.heaviside((freqGHz-0.58), 1.0)-np.heaviside((freqGHz-3.05),1.0))        # Effective collecting area
+        Aeff  = lambda freqGHz: Aphys*etaA(freqGHz)*(np.heaviside((freqGHz-1.0), 1.0)-np.heaviside((freqGHz-50.0),1.0))        # Effective collecting area
 
     return Aeff
 
@@ -106,8 +106,8 @@ def get_tsys(telescope, gal, pwv, zenith, plot):
         Tspill = lambda freqGHz: 0.0 + freqGHz*0.0 # don't know
 
     if telescope == "ngVLA":
-        Trcv = lambda freqGHz: 20.0 + freqGHz*0.0
-        Tspill = lambda freqGHz: 1.0 + freqGHz*0.0
+        Trcv = lambda freqGHz: 20.0 + freqGHz*0.0  # placeholder value for now
+        Tspill = lambda freqGHz: 1.0 + freqGHz*0.0 # placeholder value for now
 #        Trcv = lambda freqGHz: (15.0 + 30*(freqGHz - 0.75)**2)*(np.heaviside((freqGHz-0.35),1.0)-np.heaviside((freqGHz-0.95),0.0)) + (7.5)*(np.heaviside((freqGHz-0.95),0.0)-np.heaviside((freqGHz-4.6),0.0)) + (4.4 + 0.69*freqGHz)*(np.heaviside((freqGHz-4.6),0.0)-np.heaviside((freqGHz-50.0),0.0))
 #        Tspill = lambda freqGHz: 3.0 + freqGHz*0.0 # assumed to be this for all Bands but (a) is frequency dependent; (b) is zenith angle dependent - 3 K is thought to be appropriate for zenith < 45 deg; (c) the frequency dependence would actually be such that this should actually be a bit worse for Band 1 as it is not an octave feed.
 
@@ -156,7 +156,9 @@ def get_tsys(telescope, gal, pwv, zenith, plot):
 
     Tsys = lambda f: Tx(f,(Trcv(f)+Tspill(f)+Tsky(f)))
 
-    f = np.logspace(np.log10(0.35),np.log10(50),nfreqs)
+    if (telescope == "ngVLA"):
+        f = np.logspace(np.log10(1.0),np.log10(50.0),nfreqs)
+
     if (plot == True):
         plt.grid(True)
         plt.semilogx(f,Trcv(f),label='Receiver Temp.')

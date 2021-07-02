@@ -1,4 +1,4 @@
-#!/usr/local/bin/python2.7
+#!/usr/local/bin/python3
 
 #
 # Author: Evan Keane
@@ -32,7 +32,7 @@ parser.add_argument('-radius', type=float, dest='radius', help='choose distance 
 parser.add_argument('-glgb', nargs=2, type=float, dest='coord', help='enter specific Galactic coordinates to use (default: gl=180.0, gb=-90.0) NOT DONE YET', default=[180.0,-90.0])
 parser.add_argument('-gallos', dest='gal', help='choose either 10th, 50th or 90th percentile value for the galaxy contribution to the sky temperature (low/medium/high, default: low)', default='low')
 parser.add_argument('-pwv', dest='pwv', help='choose either 5mm, 10mm or 20mm for the PWV value for choosing (a) the zenith opacity, and (b) the atmospheric temperature contribution to the sky temperature (low/medium/high, default: low)', default="low")
-parser.add_argument('-tel', dest='tel', help='Which telescopes to include - options are all, low, mid, ska (meaning SKA1-Mid dishes only) or mk (default: all)', default="all")
+parser.add_argument('-tel', dest='tel', help='Which telescopes to include - options are low, mk, ska (meaning SKA1-Mid dishes only), mid (meaning mk+ska), ngvla (default: ngvla)', default="ngvla")
 parser.add_argument('-nelements', type=int, dest='nelements', help='choose the inner nelements elements (default: entire array)', default=197)
 parser.add_argument('-o', dest='output', help='choose the type of output - plot, file or both (default: plot)', default="plot")
 parser.add_argument('-zenith', type=float, dest='zenith', help='choose a zenith angle in degrees (default: 0.0)', default=0.0)
@@ -53,41 +53,51 @@ pwv = args.pwv
 radius = args.radius
 nelements = args.nelements
 
-# Get the effective collecting area
-Aeff_SKA = get_aeff("SKA",plot)
-Aeff_MK  = get_aeff("MeerKAT",plot)
-Aeff_ngVLA = get_aeff("ngVLA",plot)
+# Get the effective collecting area & system temperature
+#if ( tel == "mid" or tel == "Mid" or tel == "MID" or ):
+#Aeff_SKA = get_aeff("SKA",plot)
+if ( tel == "mk" or tel == "MK" or tel == "meeerkat" or tel == "MeerKAT" ):
+    Aeff  = get_aeff("MeerKAT",plot)
+    Tsys, f  = get_tsys("MeerKAT",gal,pwv,zenith,plot)
+elif ( tel == "ngvla" or tel == "ngVLA" ):
+    Aeff = get_aeff("ngVLA",plot)
+    Tsys, f = get_tsys("ngVLA",gal,pwv,zenith,plot)
+    f = np.logspace(np.log10(1.0),np.log10(50.0),200)          # ngVLA freq range
+else:
+    print("No idea what telescope I'm supposed to be calculating for. FAIL.")
+    sys.exit(-1)
+
 #Aeff_Eff  = get_aeff("Effelsberg",plot)
 
 # System Temperature
 #get_tsys("SKA")
 #get_tsys("MeerKAT")
-Tsys_SKA, f = get_tsys("SKA",gal,pwv,zenith,plot)
-Tsys_MK, f  = get_tsys("MeerKAT",gal,pwv,zenith,plot)
-#Tsys_Eff, f = get_tsys("Effelsberg",gal,pwv,zenith,plot
-Tsys_ngVLA, f = get_tsys("ngVLA",gal,pwv,zenith,plot)
+#Tsys_SKA, f = get_tsys("SKA",gal,pwv,zenith,plot)
 
 # Gain - single dish
 # in m^2/K (Tsys, i.e. LoS dependent)
-f = np.logspace(np.log10(0.35),np.log10(50),200)
+#f = np.logspace(np.log10(0.35),np.log10(50),200)
 plt.grid(True)
-plt.semilogx(f,Aeff_SKA(f)/Tsys_SKA(f)) #(Trcv(f)+Tspill(f)+Tsky(f)))
-plt.semilogx(f,Aeff_MK(f)/Tsys_MK(f)) #(Trcv(f)+Tspill(f)+Tsky(f)))
-plt.title("Gain - single Dish")
+#plt.semilogx(f,Aeff_SKA(f)/Tsys_SKA(f)) #(Trcv(f)+Tspill(f)+Tsky(f)))
+#plt.semilogx(f,Aeff_MK(f)/Tsys_MK(f)) #(Trcv(f)+Tspill(f)+Tsky(f)))
+plt.semilogx(f,Aeff(f)/Tsys(f)) #(Trcv(f)+Tspill(f)+Tsky(f)))
+plt.title("Gain - single Dish - LoS dependent")
 plt.ylabel("Aeff/Tsys (m^2/K)")
 plt.xlabel("Frequency (GHz)")
 plt.show()
 
 # in K/Jy (LoS independent but no indication of Tsys impact on performance)
-f = np.logspace(np.log10(0.35),np.log10(50),200)
+#f = np.logspace(np.log10(0.35),np.log10(50),200)
 plt.grid(True)
-plt.semilogx(f,Aeff_SKA(f)/(2*kB))
-plt.semilogx(f,Aeff_MK(f)/(2*kB))
-plt.title("Gain - single Dish")
+#plt.semilogx(f,Aeff_SKA(f)/(2*kB))
+#plt.semilogx(f,Aeff_MK(f)/(2*kB))
+plt.semilogx(f,Aeff(f)/(2*kB))
+plt.title("Gain - single Dish - LoS independent")
 plt.ylabel("Aeff/(2*kB) (K/Jy)")
 plt.xlabel("Frequency (GHz)")
 plt.show()
 
+sys.exit()
 # Gain - user-requested sub-array
 # need to read in the configs, for now just do whole array
 # 
