@@ -33,7 +33,9 @@ plot "< awk '{print 0.001*sqrt($3*$3+$4*$4)|\"sort -g -k1\"}' LOW_dist_metres.tx
 
 pause mouse
 
-# LOW
+# ngVLA
 set ylabel "Number of dishes"
 set xlabel "Distance from array centre (km)"
-plot "< awk '{print 0.001*sqrt($3*$3+$4*$4)|\"sort -g -k1\"}' ngvla_dist_metres.txt | cat -n" u 2:1 wi li title "ngVLA Main Array Total"
+plot "< awk '{print 0.001*sqrt($3*$3+$4*$4)|\"sort -g -k1\"}' ngvla_dist_metres.txt | cat -n" u 2:1 wi li title "ngVLA Main Array Total", "< awk 'NR<=214{print 0.001*sqrt($3*$3+$4*$4)|\"sort -g -k1\"}' ngvla_dist_metres.txt | cat -n" u 2:1 wi li title "ngVLA Long Baseline Array Total"
+
+pause mouse
