@@ -134,5 +134,5 @@ set label "1% SKA/(30 K + Tsky)" front at 0.15, 15 rotate by 65 textcolor lt 0
 replot
 
 set term postscript enhanced color solid font 'Times, 10'
-set output "bigplot.ps
+set output "bigplot.ps"
 replot
