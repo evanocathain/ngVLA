@@ -71,7 +71,7 @@ unset key
 set ylabel "A_{eff}/T_{sys} (m^2/K)" font 'Times, 15'
 set xlabel "Frequency (GHz)" font 'Times, 15'
 set logscale xy
-set xrange [0.050:50.0]
+set xrange [0.050:120.0]
 set yrange [5:3000]
 set grid mxtics mytics #lt -1 lc rgb 'gray90'
 set grid xtics ytics #lt -1 lc rgb 'gray70'
@@ -114,7 +114,7 @@ replot "mk_500m_50pct" u 1:($2*64.0/38.0) wi li lt 2 title "MeerKAT (full)", "mk
 #replot "skamid_500m_50pct" u 1:2 wi li lt -1 title "SKA1-Mid (SKA1+MeerKAT) inner 1 km", "mk_500m_50pct" u 1:($2*64.0/38.0) wi li lt 2 title "MeerKAT (full)", "mk_500m_50pct" u 1:2 wi li lt 2 title "MeerKAT inner 1 km", "mid_500m_50pct" u 1:2 wi li title "SKA1 dishes only inner 1 km"
 
 # Label the SKA-Mid components
-set label "SKA1-Mid (incl. MeerKAT, 1 km, 20 km, full)" front at 4,1600
+set label "SKA1-Mid (incl. MeerKAT, 1 km, 20 km, full)" front at 2,1500
 set label "MeerKAT (1 km, full)" front at 3.3,350
 
 # Overplot the SKA-Low components
@@ -133,6 +133,18 @@ set label "10% SKA/(30 K + Tsky)" front at 0.08, 30 rotate by 65 textcolor lt 0
 set label "1% SKA/(30 K + Tsky)" front at 0.15, 15 rotate by 65 textcolor lt 0
 replot
 
-set term postscript enhanced color solid font 'Times, 10'
-set output "bigplot.ps"
+# ngVLA
+replot "ngvla_core_4.txt" u 1:2 wi li lt 7, "ngvla_core_5.txt" u 1:2 wi li lt 7, "ngvla_core_6.txt" u 1:2 wi li lt 7
+replot "ngvla_main_4.txt" u 1:2 wi li lt 7, "ngvla_main_5.txt" u 1:2 wi li lt 7, "ngvla_main_6.txt" u 1:2 wi li lt 7
+replot "ngvla_full_4.txt" u 1:2 wi li lt 7, "ngvla_full_5.txt" u 1:2 wi li lt 7, "ngvla_full_6.txt" u 1:2 wi li lt 7
+#ngVLA labels
+set label "ngVLA (full array: 263 dishes)" front at 25,1700
+set label "ngVLA (main array: 214 dishes)" front at 25,1200 
+set label "ngVLA (core: 94 dishes)" front at 25,550
 replot
+
+
+set term postscript enhanced color solid font 'Times, 10'
+set output "bigplot_1.ps"
+replot
+
