@@ -1,12 +1,14 @@
 #Converts xyz coords to longitude-latitude
+#for input into google maps 
 
 #import module
 import numpy as np
+import csv
 
 #.txt file of xyz data as input
-file1 = '/home/caoimhe/ngVLA-fork/ngVLA/Configuration/ngvla-xyz.txt'
+file1 = 'ngvla-xyz.txt'
 #.txt file of lat-long data as output
-file2 = '/home/caoimhe/ngVLA-fork/ngVLA/Configuration/ngvla-latlong.txt'
+file2 = 'ngvla_latlong.csv'
 
 #taking radius of earth=6378km
 R = 6.378e6 #in metres
@@ -35,18 +37,28 @@ def xyz_latlong(file1,file2):
     for line in data:
         lines.append(line.split())
 
-    #open file for longlat coords
-    result = open(file2,'w')
+    #open csv file for longlat coords
+    f = open(file2,'w',encoding='UTF8',newline='')
+    fieldnames = ['name','part','lat','long']
+    writer = csv.DictWriter(f,fieldnames=fieldnames)
+    writer.writeheader()    
 
     #read data, get lat & long, write to new file
     for i in lines:
         x = float(i[0])
         y = float(i[1])
         z = float(i[2])
-        name = i[4]
+        n = i[4]
 
-        newline = str(lat(z,R)) + ',' + str(long(x,y)) + '\n'
+        if n[0] == 'm' and n[1] != 'a':
+            p = 'Main Array'
+        elif n[0] == 's' and n[1] == '0':
+            p = 'SBA'
+        else:
+            p = 'LBA'
 
-        result.write(newline)
+        row = {'name':n,'part':p,'lat':lat(z,R),'long':long(x,y)}
+        
+        writer.writerow(row)
 
 xyz_latlong(file1,file2)

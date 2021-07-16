@@ -11,9 +11,9 @@ file1 = '/home/caoimhe/ngVLA-fork/ngVLA/Configuration/ngvla-xyz.txt'
 file2 = '/home/caoimhe/ngVLA-fork/ngVLA/Configuration/coords_ngvla.txt'
 
 #reference point: array centre coordinates
-#for now take long,lat of dish 1, m001
-long_0 = -107.64372935411765
-lat_0 = 33.88522456517469
+#for now take long,lat of dish m130 (approx close to centre)
+long_0 = -107.640239907649
+lat_0 = 33.8781058495442
 
 #taking radius of earth=6378km
 R = 6.378e6 #in metres
