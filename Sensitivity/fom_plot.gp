@@ -1,15 +1,26 @@
 set term x11 font 'Times, 10'
 
-# SKA1-Mid
-# SKA1-Mid SKA dishes only
-# MeerKAT
-# FAST
-# Arecibo
-# Effelsberg
-# GBT (GBNCC)
-# uGMRT
-# Parkes
-# LOFAR
+#telescope              #max frequency (GHz)       #Corresponding to ngVLA band
+# SKA1-Mid                      50                              5
+# SKA1-Mid SKA dishes only      50                              5
+# MeerKAT                       50                              5
+# FAST                          3                               1   **
+# Arecibo                       10                              2   **
+# Effelsberg                    86                              6   **
+# GBT (GBNCC)                   *                               *
+# uGMRT                         *                               *
+# Parkes                        26                              4   **
+# LOFAR                         *                               *
+# ALMA                          950 ***                         6 only ***
+
+# * : currently not defined here
+# ** : currently only defined here for Band 1. 
+# *** : currently not defined here: to be added
+
+# Get gain for ngVLA, SKA, MeerKAT from Sensitivity/get_gain.py: input the desired frequency and it outputs A_eff/T_sys for that freq
+# For each band, change frequency, gain, title & labels of plot and name of output file (fomplot_2.ps for Band 2, etc)
+# Label positions on graph need to be changed manually each time. 
+# Also: add in equation for survey speed calculation
 
 # constants, functions etc.
 pi      = 3.14159
@@ -20,7 +31,7 @@ fullska(x) = 1.0e+6/(30.0+Tsky(x))
 ## The telescopes ##
 # First the non-SKA single dish components. 
 # Let's go for decreasing dish diameter
-#
+
 
 # FAST
 fast_func(x)  = 40000.0/(20.0+Tsky(x))
@@ -72,7 +83,7 @@ set ylabel "1.4-GHz PSR Survey Speed FoM (arb. units)" font 'Times, 15'
 set xlabel "Distance from array centre (m)" font 'Times, 15'
 set logscale xy
 set xrange [20:4000]
-set yrange [10:2.0e4]
+set yrange [0:2.0e4]
 set grid mxtics mytics #lt -1 lc rgb 'gray90'
 set grid xtics ytics #lt -1 lc rgb 'gray70'
 set xtics font "Times, 15"
@@ -89,7 +100,9 @@ plot "<echo '250.0'" u 1:((19.0*fast(1.4)**2)/(125.50**2)) w p lt 1 pt 5 ps 2, \
 "<awk '{print $0,sqrt($3*$3+$4*$4)}' ../Configuration/MID_dist_metres.txt | sort -g -k5 | awk -v g=0.0 -v mkgain=6.34 -v skagain=10.16 '{if (substr($2,1,1)==\"M\") g+=mkgain; if (substr($2,1,1)==\"S\") g+=skagain; fov=1.0/(7.5*7.5); if (1500/($5*$5) < fov) fov=1500/($5*$5); print $5,g*g*fov}'" w li lt -1, \
 "<awk '{print $0,sqrt($3*$3+$4*$4)}' ../Configuration/MID_dist_metres.txt | sort -g -k5 | awk -v g=0.0 -v mkgain=6.34 -v skagain=10.16 '{if (substr($2,1,1)==\"M\") g+=mkgain; if (substr($2,1,1)==\"S\") g+=skagain; fov=1.0/(7.5*7.5); if (750/($5*$5) < fov) fov=750/($5*$5); print $5,g*g*fov}'" w li lt -1, \
 "<awk '{print $0,sqrt($3*$3+$4*$4)}' ../Configuration/MID_dist_metres.txt | sort -g -k5 | awk -v g=0.0 -v mkgain=6.34 '{if (substr($2,1,1)==\"M\") {g+=mkgain; fov=1.0/(6.75*6.75); if (10000/($5*$5) < fov) fov=10000/($5*$5); print $5,g*g*fov}}'" w li lt 2, \
-"<awk '{print $0,sqrt($3*$3+$4*$4)}' ../Configuration/MID_dist_metres.txt | sort -g -k5 | awk -v g=0.0 -v mkgain=6.34 '{if (substr($2,1,1)==\"M\") {g+=mkgain; fov=1.0/(6.75*6.75); if (400/($5*$5) < fov) fov=400/($5*$5); print $5,g*g*fov}}'" w li lt 2
+"<awk '{print $0,sqrt($3*$3+$4*$4)}' ../Configuration/MID_dist_metres.txt | sort -g -k5 | awk -v g=0.0 -v mkgain=6.34 '{if (substr($2,1,1)==\"M\") {g+=mkgain; fov=1.0/(6.75*6.75); if (400/($5*$5) < fov) fov=400/($5*$5); print $5,g*g*fov}}'" w li lt 2, \
+"<awk '{print $0,sqrt($3*$3+$4*$4)}' ../Configuration/ngvla_dist_metres.txt | sort -g -k5 | awk -v g=0.0 -v nggain=8.78 '{g+=nggain; fov=1.0/(9*9); if ((50/($5*$5)) < fov) fov=50/($5*$5); print $5,g*g*fov}'" w li lt 7
+
 
 #plot "<echo '250.0'" u 1:((19.0*fast(1.4)**2)/(150.0**2)) w p lt 1 pt 5 ps 2, \
 #"<echo '150'" u 1:(((ao_centre(1.4)**2)+(6.0*ao_ring(1.4)**2))/(100.0**2)) w p lt 6 pt 5 ps 2, \
@@ -160,6 +173,8 @@ set label "SKA1-Mid 1500 beams" front at 700,3000 #font "Times, 15"
 set label "SKA1-Mid 750 beams" front at 600,600 #font "Times, 15"
 set label "MeerKAT 10000 beams" front at 900,300 textcolor lt 2 #font "Times, 15"
 set label "MeerKAT 400 beams" front at 800,60 textcolor lt 2 #font "Times, 15"
+set label "ngVLA (50 beams)" front at 200,200  textcolor lt 7 font "Times,15"
+set title "Survey Speed at 1.4GHz (ngVLA Band 1)" font "Times, 22"
 replot
 
 set term postscript enhanced color solid font 'Times, 10'
