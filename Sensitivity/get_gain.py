@@ -25,14 +25,6 @@ def get_y(x,y,xvalue):
         
         return yvalue
 
-# ngVLA
-xval = eval(input("Choose Frequency (GHz): "))
-if xval > 50 and xval < 70:
-    print("Undefined for 50-70 GHz")
-
-f, gain = d.process("sensitivity")
-print("ngVLA: ", get_y(f,gain,xval))
-
 #get values from sens.py
 def func(telescope):
     Tsys, f = s.get_tsys(telescope,"low","low",0.0,False)
@@ -44,10 +36,34 @@ def func(telescope):
         g.append(a/t)
     return f, g
 
-# SKA
-f, gain = func("SKA")
-print("SKA: ", get_y(f,gain,xval))
 
-# MeerKAT
-f, gain = func("MeerKAT")
-print("MeerKAT: ", get_y(f,gain,xval))
+def main(F):
+
+    # ngVLA
+    xval = F
+    if xval > 50 and xval < 70:
+        print("Undefined for 50-70 GHz")
+
+    
+    f, gain = d.process("sensitivity")
+    ngVLA = get_y(f,gain,xval)
+    
+    if F <= 50:
+
+        # SKA
+        f, gain = func("SKA")
+        SKA = get_y(f,gain,xval)
+
+        # MeerKAT
+        f, gain = func("MeerKAT")
+        MeerKAT = get_y(f,gain,xval)
+    
+    else:
+        SKA = 0
+        MeerKAT = 0
+
+
+
+    return ngVLA, SKA, MeerKAT
+
+main(39.2)

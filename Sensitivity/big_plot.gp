@@ -72,7 +72,7 @@ set ylabel "A_{eff}/T_{sys} (m^2/K)" font 'Times, 15'
 set xlabel "Frequency (GHz)" font 'Times, 15'
 set logscale xy
 set xrange [0.050:120.0]
-set yrange [5:3000]
+set yrange [5:4000]
 set grid mxtics mytics #lt -1 lc rgb 'gray90'
 set grid xtics ytics #lt -1 lc rgb 'gray70'
 set xtics font "Times, 15"
@@ -134,17 +134,20 @@ set label "1% SKA/(30 K + Tsky)" front at 0.15, 15 rotate by 65 textcolor lt 0
 replot
 
 # ngVLA
-replot "ngvla_core_4.txt" u 1:2 wi li lt 7, "ngvla_core_5.txt" u 1:2 wi li lt 7, "ngvla_core_6.txt" u 1:2 wi li lt 7
-replot "ngvla_main_4.txt" u 1:2 wi li lt 7, "ngvla_main_5.txt" u 1:2 wi li lt 7, "ngvla_main_6.txt" u 1:2 wi li lt 7
-replot "ngvla_full_4.txt" u 1:2 wi li lt 7, "ngvla_full_5.txt" u 1:2 wi li lt 7, "ngvla_full_6.txt" u 1:2 wi li lt 7
+replot "core_4.txt" u 1:2 wi li lt 7, "core_5.txt" u 1:2 wi li lt 7, "core_6.txt" u 1:2 wi li lt 7
+replot "main_4.txt" u 1:2 wi li lt 7, "main_5.txt" u 1:2 wi li lt 7, "main_6.txt" u 1:2 wi li lt 7
+replot "full_4.txt" u 1:2 wi li lt 7, "full_5.txt" u 1:2 wi li lt 7, "full_6.txt" u 1:2 wi li lt 7
 #ngVLA labels
 set label "ngVLA (full array: 263 dishes)" front at 25,1700
 set label "ngVLA (main array: 214 dishes)" front at 25,1200 
-set label "ngVLA (core: 94 dishes)" front at 25,550
+set label "ngVLA (core: 114 dishes)" front at 25,550
+#title
+set title "Sensitivity vs Frequency" font "Times, 22"
+
 replot
 
 
 set term postscript enhanced color solid font 'Times, 10'
-set output "bigplot_1.ps"
+set output "bigplot_2.ps"
 replot
 
