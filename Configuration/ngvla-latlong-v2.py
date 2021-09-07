@@ -2,6 +2,9 @@
 #program modified to create input for ang2dist.csh
 #for converting the lat-long values to xy distance from centre of array
 
+## *NB* This code uses Geocentric Latitude instead of Geodetic Latitude, so the latitudes given are off by a bit from actual values
+
+
 #import module
 import numpy as np
 
