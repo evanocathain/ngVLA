@@ -2,18 +2,21 @@
 #program modified to create input for ang2dist.csh
 #for converting the lat-long values to xy distance from centre of array
 
+## *NB* This code uses Geocentric Latitude instead of Geodetic Latitude, so the latitudes given are off by a bit from actual values
+
+
 #import module
 import numpy as np
 
 #.txt file of xyz data as input
-file1 = '/home/caoimhe/ngVLA-fork/ngVLA/Configuration/ngvla-xyz.txt'
+file1 = '/home/caoimhe/ngVLA-fork/ngVLA/Configuration/Rev_D_Config_Data/rev_d_xyz.txt'
 #.txt file of lat-long data as output
 file2 = '/home/caoimhe/ngVLA-fork/ngVLA/Configuration/coords_ngvla.txt'
 
 #reference point: array centre coordinates
-#for now take long,lat of dish m130 (approx close to centre)
-long_0 = -107.640239907649
-lat_0 = 33.8781058495442
+#for now take long,lat of dish cor13 (approx close to centre)
+long_0 = -107.64081229998844
+lat_0 = 33.87845004243236
 
 #taking radius of earth=6378km
 R = 6.378e6 #in metres
